@@ -75,7 +75,7 @@ public class SymbolGenerator {
         return new ArrayList<>(symbolProbabilities.keySet()).getFirst();
     }
 
-    private boolean randomBonusSymbolChance() {
+    public boolean randomBonusSymbolChance() {
         // 20% chance of bonus symbol
         return random.nextDouble() < 0.2;
     }
